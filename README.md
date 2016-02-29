@@ -10,6 +10,7 @@ Requirements:
 
 Your Key/Value Database project:
 (1) Shall be implemented in C# using the facilities of the .Net Framework Class Library and Visual Studio 2015, as provided in the ECS clusters.
+
 (3) Shall implement a generic key/value in-memory database where each value consists of:
 Metadata:
 A name string

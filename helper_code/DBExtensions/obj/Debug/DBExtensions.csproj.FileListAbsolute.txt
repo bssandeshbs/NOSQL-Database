@@ -1,0 +1,12 @@
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBExtensions.exe.config
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBExtensions.exe
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBExtensions.pdb
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBElement.exe
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\UtilityExtensions.exe
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBElement.pdb
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\UtilityExtensions.pdb
+C:\Users\James\Desktop\Project2Starter\DBExtensions\obj\Debug\DBExtensions.csprojResolveAssemblyReference.cache
+C:\Users\James\Desktop\Project2Starter\DBExtensions\obj\Debug\DBExtensions.exe
+C:\Users\James\Desktop\Project2Starter\DBExtensions\obj\Debug\DBExtensions.pdb
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBEngine.exe
+C:\Users\James\Desktop\Project2Starter\DBExtensions\bin\Debug\DBEngine.pdb

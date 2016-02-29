@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Demonstrating XML-->
+<noSqlDb>
+  <keytype>System.String</keytype>
+  <payloadtype>System.Collections.Generic.List`1[System.String]</payloadtype>
+  <record>
+    <key>The Good, the Bad and the Ugly</key>
+    <element>
+      <name>Movie Name - The Good the Bad and the Ugly</name>
+      <descr>A bounty hunting scam joins two men in an uneasy alliance </descr>
+      <timestamp>10/6/2015 10:24:31 PM</timestamp>
+      <payload>
+        <item>Clint Eastwood</item>
+        <item> Eli Wallach</item>
+        <item>Lee Van Cleef</item>
+      </payload>
+    </element>
+  </record>
+  <record>
+    <key>Django Unchained</key>
+    <element>
+      <name>Movie Name - Django Unchained</name>
+      <descr>With the help of a German hunter, a freed slave sets to rescue</descr>
+      <timestamp>10/6/2015 10:24:31 PM</timestamp>
+      <children>
+        <key>The Good, the Bad and the Ugly</key>
+        <key>Life Is Beautiful</key>
+      </children>
+      <payload>
+        <item>Jamie Foxx</item>
+        <item>Christoph Waltz</item>
+        <item>Leonardo DiCaprio</item>
+        <item>Quentin Tarantino</item>
+      </payload>
+    </element>
+  </record>
+</noSqlDb>

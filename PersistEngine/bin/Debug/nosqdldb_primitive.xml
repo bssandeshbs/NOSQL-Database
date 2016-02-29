@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Demonstrating XML-->
+<noSqlDb>
+  <keytype>System.Int32</keytype>
+  <payloadtype>System.String</payloadtype>
+  <record>
+    <key>113</key>
+    <element>
+      <name>Jurassic World</name>
+      <descr>Story on escape from giant creatures</descr>
+      <timestamp>10/6/2015 10:24:31 PM</timestamp>
+      <payload>A giant creature attacks the park and becomes a killing machine</payload>
+    </element>
+  </record>
+  <record>
+    <key>114</key>
+    <element>
+      <name>Cast Away</name>
+      <descr>Story of surviving a crash landing on a deserted island.</descr>
+      <timestamp>10/6/2015 10:24:31 PM</timestamp>
+      <children>
+        <key>4</key>
+        <key>5</key>
+      </children>
+      <payload>Directed by Robert Zemeckis and written by Willian Broyles Jr.</payload>
+    </element>
+  </record>
+</noSqlDb>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Demonstrating XML-->
+<noSqlDb>
+  <keytype>System.String</keytype>
+  <payloadtype>System.Collections.Generic.List`1[System.String]</payloadtype>
+  <record>
+    <key>Django Unchained</key>
+    <element>
+      <name>Django Unchained Reborn</name>
+      <descr> German Hunter helps to resuce a slave wife</descr>
+      <timestamp>10/6/2015 9:52:34 PM</timestamp>
+      <children>
+        <key>The Good, the Bad and the Ugly</key>
+        <key>Life Is Beautiful</key>
+        <key>3 Idiots</key>
+        <key>3 Idiots</key>
+      </children>
+      <payload>
+        <item>Jamie Foxx</item>
+        <item>Christoph Waltz</item>
+        <item>Leonardo DiCaprio</item>
+        <item>Quentin Tarantino</item>
+      </payload>
+    </element>
+  </record>
+  <record>
+    <key>3 Idiots</key>
+    <element>
+      <name>3 Idiots Remade</name>
+      <descr> They think differently, even as the rest of the world called them idiots</descr>
+      <timestamp>10/6/2015 9:52:34 PM</timestamp>
+      <payload>
+        <item>Rajkumar Hirani</item>
+        <item>Amir Khan</item>
+        <item>Abhijat Joshi</item>
+      </payload>
+    </element>
+  </record>
+</noSqlDb>

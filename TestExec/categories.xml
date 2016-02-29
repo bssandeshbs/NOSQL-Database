@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Demonstrating Requirement 12-->
+<noSqlDb>
+  <keytype>System.String</keytype>
+  <payloadtype>System.Collections.Generic.List`1[System.String]</payloadtype>
+  <record>
+    <key>Food Products</key>
+    <element>
+      <name>Food Products</name>
+      <descr>Category related to food items</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+      <payload>
+		  <item>Fruits</item>
+		  <item>Milk</item>
+		  <item>Beverages</item>
+	  </payload>
+    </element>
+  </record>
+    <record>
+    <key>Beverages</key>
+    <element>
+      <name>Beverages</name>
+      <descr>Drinks, or beverages, are liquids intended for human consumption</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+	  <children>
+        <key>Food Products</key>
+      </children>
+      <payload><item>Tropicana</item>
+	  </payload>
+    </element>
+  </record>
+   <record>
+    <key>Tropicana</key>
+    <element>
+      <name>Tropicana</name>
+      <descr>No 1 fruit Juice in the world</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+	  <children>
+        <key>Food Products</key>
+		<key>Beverages</key>
+      </children>
+      <payload>
+	  </payload>
+    </element>
+  </record>
+  <record>
+    <key>Milk</key>
+    <element>
+      <name>Milk</name>
+      <descr>Primary source of nutrition for people</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+	  <children>
+        <key>Food Products</key>
+		<key>Beverages</key>
+      </children>
+      <payload> <item>Brian Dairy </item> </payload>
+    </element>
+  </record>
+  <record>
+    <key>Brian Dairy</key>
+    <element>
+      <name>Brian Dairy</name>
+      <descr>No 1 Company in Milk Products</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+	  <children>
+        <key>Food Products</key>
+		<key>Beverages</key>
+      </children>
+      <payload></payload>
+    </element>
+  </record>
+  <record>
+    <key>Fruits</key>
+    <element>
+      <name>Fruits</name>
+      <descr>Tasty and delicious raw food, good for health</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+	  <children>
+        <key>Food Products</key>
+      </children>
+      <payload><item>Mango</item></payload>
+    </element>
+  </record>
+  <record>
+    <key>Mango</key>
+    <element>
+      <name>Mango</name>
+      <descr>Contains the data dictionary</descr>
+      <timestamp>10/6/2015 12:18:49 AM</timestamp>
+	  <children>
+        <key>Food Products</key>
+		<key>Fruits</key>
+      </children>
+      <payload></payload>
+    </element>
+  </record>
+</noSqlDb>

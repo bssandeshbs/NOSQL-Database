@@ -1,0 +1,5 @@
+C:\Users\James\Desktop\Project2Starter\UtilityExtensions\bin\Debug\UtilityExtensions.exe.config
+C:\Users\James\Desktop\Project2Starter\UtilityExtensions\bin\Debug\UtilityExtensions.exe
+C:\Users\James\Desktop\Project2Starter\UtilityExtensions\bin\Debug\UtilityExtensions.pdb
+C:\Users\James\Desktop\Project2Starter\UtilityExtensions\obj\Debug\UtilityExtensions.exe
+C:\Users\James\Desktop\Project2Starter\UtilityExtensions\obj\Debug\UtilityExtensions.pdb
